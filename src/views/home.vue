@@ -144,7 +144,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawale3"></span>
+              <span v-html="raw5rqw"></span>
             </span>
           </span>
         </div>
@@ -285,7 +285,7 @@ export default {
 
   data() {
     return {
-      rawale3: ' ',
+      raw5rqw: ' ',
     }
   },
 
@@ -305,6 +305,11 @@ export default {
         property: 'og:description',
         content:
           'Advogado Advogada Direito Civil Família Sucessões Herança Inventário Doação Testamento Compra Venda Imóvel Planejamento Cartório Justiça Processo Contrato',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/4c2dbd79-e313-455e-8bdb-dc5001b85970/270b3fb6-aaa5-49f0-bc10-b73e2c77e900?org_if_sml=1',
       },
     ],
   },
