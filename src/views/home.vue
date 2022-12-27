@@ -144,7 +144,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawfqws"></span>
+              <span v-html="rawesb0"></span>
             </span>
           </span>
         </div>
@@ -285,7 +285,7 @@ export default {
 
   data() {
     return {
-      rawfqws: ' ',
+      rawesb0: ' ',
     }
   },
 
@@ -898,6 +898,12 @@ export default {
   .home-mobile-menu {
     padding: 16px;
   }
+  .home-container05 {
+    align-self: center;
+  }
+  .home-text06 {
+    align-self: center;
+  }
   .home-image2 {
     width: 90%;
     height: auto;
@@ -907,6 +913,16 @@ export default {
     width: 90%;
     height: auto;
     align-self: center;
+  }
+  .home-container14 {
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-text15 {
+    align-self: center;
+    text-align: center;
   }
   .home-container15 {
     height: 500px;
