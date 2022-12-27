@@ -116,7 +116,7 @@
         <div class="home-container08">
           <img
             alt="image"
-            src="/playground_assets/d7f51d518f1221d4ef64d31fba6bb644-800w.png"
+            src="/playground_assets/d7f51d518f1221d4ef64d31fba6bb644-700w.png"
             loading="lazy"
             class="home-image2"
           />
@@ -133,7 +133,7 @@
         <div class="home-container11">
           <img
             alt="image"
-            src="/playground_assets/f7c348cec934ef841acda2352b8f958d-800w.png"
+            src="/playground_assets/f7c348cec934ef841acda2352b8f958d-700w.png"
             loading="lazy"
             class="home-image3"
           />
@@ -144,7 +144,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="raw5rqw"></span>
+              <span v-html="rawfqws"></span>
             </span>
           </span>
         </div>
@@ -285,7 +285,7 @@ export default {
 
   data() {
     return {
-      raw5rqw: ' ',
+      rawfqws: ' ',
     }
   },
 
@@ -899,20 +899,43 @@ export default {
     padding: 16px;
   }
   .home-image2 {
-    width: 100%;
+    width: 90%;
     height: auto;
     align-self: center;
   }
   .home-image3 {
-    width: 100%;
+    width: 90%;
     height: auto;
     align-self: center;
   }
+  .home-container15 {
+    height: 500px;
+  }
+  .home-container18 {
+    height: 33%;
+  }
   .home-text16 {
+    font-size: 18px;
     text-align: center;
   }
+  .home-container20 {
+    height: 33%;
+  }
   .home-text17 {
+    font-size: 18px;
     text-align: center;
+  }
+  .home-container23 {
+    height: 33%;
+  }
+  .home-text21 {
+    font-size: 18px;
+  }
+  .home-container25 {
+    height: 33%;
+  }
+  .home-text28 {
+    font-size: 18px;
   }
   .home-image4 {
     width: 33%;
