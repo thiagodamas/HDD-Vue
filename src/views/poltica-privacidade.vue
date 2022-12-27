@@ -2,23 +2,23 @@
   <div class="poltica-privacidade-container">
     <div class="poltica-privacidade-container01">
       <header data-role="Header" class="poltica-privacidade-header">
-        <router-link to="/" class="poltica-privacidade-navlink">
-          <img
-            alt="logo"
-            src="/playground_assets/f464d58c0ac4465a6d2141623af20120-1400w.png"
-            class="poltica-privacidade-image"
-          />
-        </router-link>
-        <div class="poltica-privacidade-nav">
-          <router-link to="/" class="poltica-privacidade-navlink1">
-            <navigation-links3
-              text="Quem somos"
-              text1="Áreas de atuação"
-              text2="Contato"
-              rootClassName="rootClassName8"
-              class="poltica-privacidade-component"
-            ></navigation-links3>
-          </router-link>
+        <img
+          alt="logo"
+          src="/playground_assets/f464d58c0ac4465a6d2141623af20120-1400w.png"
+          class="poltica-privacidade-image"
+        />
+        <div class="poltica-privacidade-container02">
+          <div class="poltica-privacidade-container03">
+            <router-link to="/" class="poltica-privacidade-navlink">
+              Quem somos
+            </router-link>
+            <router-link to="/" class="poltica-privacidade-navlink1">
+              Áreas de atuação
+            </router-link>
+            <router-link to="/" class="poltica-privacidade-navlink2">
+              Contato
+            </router-link>
+          </div>
         </div>
         <div class="poltica-privacidade-icon-group">
           <a
@@ -66,292 +66,283 @@
         </div>
       </header>
     </div>
-    <div class="poltica-privacidade-container02">
-      <div class="poltica-privacidade-container03">
-        <span class="poltica-privacidade-text">Política de Privacidade</span>
-      </div>
-      <span class="poltica-privacidade-text001">
-        <span class="poltica-privacidade-text002">
-          Política de Privacidade do site de Hamilton, Damas &amp; De Macedo
-          Advocacia - hdd.adv.br
-        </span>
-        <br class="poltica-privacidade-text003" />
-        <br />
-        <span>
-          Nosso escritório respeita a sua autonomia para compartilhar (ou não)
-          seus da-dos pessoais. Com isto em mente, disponibilizamos esta política
-          para que você tenha amplo conhecimento sobre o que acontece com os seus
-          dados pessoais quando você acessa nosso site. A finalidade geral da
-          coleta de dados pessoais em nosso site é construir um relacionamento com
-          os clientes que assim con-sentirem.
-        </span>
-        <br />
-        <br />
-        <span>___________________________</span>
-        <br />
-        <br />
-        <span>
-          Este documento traz a política de privacidade do site de Hamilton, Damas
-          &amp; De Macedo Advocacia. Sua finalidade, em consonância com a Lei n°
-          13.709, Lei Geral de Proteção de Dados Pessoais (LGPD), é descrever a
-          maneira como se dá a co-leta, armazenamento e tratamento dos dados
-          pessoais especificamente em nosso site, bem como explicitar os direitos
-          do titular que poderão ser exercidos.
-        </span>
-        <br />
-        <br />
-        <span>
-          A sociedade tem sua sede comercial estabelecida à Rua Barão de Cotegipe,
-          n°443, Sala 612, Centro, Rio Grande, RS, CEP 96200-290, e está
-          regularmente inscrita na OAB/RS sob o n° 10.633.
-        </span>
-        <br />
-        <br />
-        <span>
-          Ao fornecer os seus dados pessoais em nosso site, você aceita os termos
-          e con-dições desta Política de Privacidade e Proteção de Dados Pessoais,
-          lembrando que apenas serão tratados os dados pessoais necessários às
-          finalidades que embasam sua coleta, nos termos do artigo 7° da LGPD.
-          Também é importante salientar que alguns dados poderão ser mantidos para
-          cumprimento de obriga-ção legal ou regulatória, exercício regular de
-          direito, interesse legítimo ou com o seu consentimento.
-        </span>
-        <br />
-        <br />
-        <span>
-          O presente documento foi dividido nas seguintes partes, como forma de
-          facili-tar a sua leitura e interpretação: 1) Coleta de informação
-          pessoal; 2) Uso de sua informação pessoal; 3) Compartilhamento de
-          informações com terceiros; 4) Se-gurança de seus dados; 5) Direitos dos
-          usuários; 6) Atualizações da política de privacidade do site; 7)
-          Consentimento; e 8) Encarregado de dados.
-        </span>
-        <br />
-        <br />
-        <span>
-          Devido a nossa constante atualização, esta Política de Privacidade e
-          Proteção de Dados pode sofrer alterações, de forma que a versão mais
-          recente estará disponível diretamente em nosso site.
-        </span>
-        <br />
-        <br />
-        <span class="poltica-privacidade-text026">
-          1. Coleta de Informação Pessoal
-        </span>
-        <br class="poltica-privacidade-text027" />
-        <br />
-        <span>
-          Nosso site disponibiliza a seção “Receba nossas publicações por email”
-          nas pá-ginas “Home” e “Contato”. Caso você preencha esta seção e envie
-          seus dados, utilizaremos seu nome completo e email estritamente para a
-          finalidade de in-clusão na lista de destinatários dos emails do HDD,
-          para recebimento dos in-formativos para clientes.
-        </span>
-        <br />
-        <br />
-        <span>
-          Nosso site utiliza a plataforma de hospedagem Wix, assim como a
-          plataforma de análise Google Analytics, as quais nos disponibilizam
-          relatórios estatísticos com dados anonimizados, demonstrando o número de
-          sessões de acesso ao site, número total de visitantes, número de
-          visitantes únicos e demais informa-ções padronizadas de análise
-          estatística. Nosso escritório tem acesso estrita-mente a estes dados
-          estatísticos anônimos.
-        </span>
-        <br />
-        <br />
-        <span>
-          Para que a estatística possa ser visualizada, no entanto, o Wix e o
-          Google têm acesso a algumas informações técnicas do seu dispositivo,
-          tais como, endereço IP e Porta Lógica de Origem, tipo de dispositivo,
-          navegador e sistema operacio-nal, registros de data e horário de cada
-          ação que você realizar, telas acessadas, ID da sessão e Cookies.
-        </span>
-        <br />
-        <br />
-        <span>
-          Ao clicar nos links de contato em plataformas de terceiros (WhatsApp,
-          Insta-gram, Facebook e LinkedIn), você será redirecionado para o sistema
-          correspon-dente, estando sujeito à política de privacidade da plataforma
-          em questão. No entanto, poderemos coletar seus dados de contato na
-          respectiva plataforma para que possamos atendê-lo, caso você decida
-          compartilhar seus dados. Por exemplo: no WhatsApp, você pode informar o
-          número de telefone e mostrar seu perfil ao iniciar uma conversa. No
-          Linkedin, seu perfil pode aparecer como visualizações dos nossos perfis;
-          no Facebook você pode fazer um pedido de amizade; no Instagram você pode
-          seguir nossos perfis.
-        </span>
-        <br />
-        <br />
-        <span class="poltica-privacidade-text041">
-          2. Uso da sua informação pessoal
-        </span>
-        <br class="poltica-privacidade-text042" />
-        <br />
-        <span>
-          Utilizamos os dados coletados para informar sobre novidades,
-          funcionalidades, conteúdos, notícias e eventos relacionados aos nossos
-          serviços. Ainda, os dados também são utilizados para a sua proteção,
-          seja para cumprir obrigações legais e assim assegurar seus direitos, ou
-          até mesmo para prevenir alguma fraude.
-        </span>
-        <br />
-        <br />
-        <span>
-          A qualquer momento você pode optar em não receber mais informações,
-          bas-tando para isso solicitar via nosso endereço de e-mail ou seguindo
-          as instruções de retirada de inscrição que acompanham as mensagens
-          recebidas.
-        </span>
-        <br />
-        <br />
-        <span class="poltica-privacidade-text050">
-          3. Compartilhamento de informações com terceiros
-        </span>
-        <br class="poltica-privacidade-text051" />
-        <br />
-        <span>
-          As únicas hipóteses em que o HDD disponibilizará suas informações
-          pessoais com terceiros são as seguintes: (a) legislação, regulamentação,
-          processo legal ou solicitação governamental aplicável; (b) cumprir
-          investigação de possíveis violações; (c) fraude ou por segurança; ou (d)
-          proteger contra dano aos direitos, a propriedade ou a segurança do HDD,
-          nossos usuários ou o público, conforme solicitado ou permitido por lei.
-        </span>
-        <br />
-        <br />
-        <br />
-        <span class="poltica-privacidade-text057">
-          4. Segurança de seus Dados
-        </span>
-        <br class="poltica-privacidade-text058" />
-        <br />
-        <span>
-          Dispomos de medidas de segurança em âmbitos físico, eletrônico e
-          administra-tivo, que protegem os dados pessoais e suas informações.
-          Essas medidas de proteção nos auxiliam na prevenção de fraudes e acessos
-          não autorizados às informações, bem como na manutenção da integridade
-          dos dados. Além disso, dispomos de uma Política de Segurança Interna
-          para que seus dados permane-çam sempre em segurança.
-        </span>
-        <br />
-        <br />
-        <span>
-          Ademais, nosso site tem certificado de segurança e, especificamente, os
-          dados pessoais coletados no site são armazenados diretamente na
-          plataforma do Wix em conjunto com a plataforma do Google Workspace
-          (G-Suite).
-        </span>
-        <br />
-        <br />
-        <span class="poltica-privacidade-text066">5. Direitos dos usuários</span>
-        <br class="poltica-privacidade-text067" />
-        <br />
-        <span>
-          Os direitos elencados abaixo podem ser exercidos a qualquer momento
-          através do e-mail: contato@hdd.adv.br.
-          <span v-html="rawh0bk"></span>
-        </span>
-        <br />
-        <br />
-        <span>
-          Acesso: o usuário poderá solicitar informações a respeito de quais dados
-          são armazenados e para qual finalidade.
-        </span>
-        <br />
-        <br />
-        <span>
-          Retificação: o usuário poderá solicitar a correção/atualização de algum
-          de seus dados pessoais, pois é sua responsabilidade mantê-los sempre
-          atualizados.
-          <span v-html="raw9khw"></span>
-        </span>
-        <br />
-        <br />
-        <span>
-          Eliminação: o usuário poderá solicitar a eliminação dos seus dados
-          pessoais nas seguintes situações: (i) quando não forem necessários para
-          a finalidade para a qual são utilizados, (ii) quando não estiver mais
-          consentindo com os termos aqui expostos.
-        </span>
-        <br />
-        <br />
-        <br />
-        <span class="poltica-privacidade-text082">
-          6. Atualizações na Política de Privacidade do Site
-        </span>
-        <br class="poltica-privacidade-text083" />
-        <br />
-        <span>
-          Em caso de modificação nos termos, publicaremos a nova versão da
-          política de privacidade em nosso site. As versões anteriores da Política
-          de Privacidade do Site serão arquivadas para eventual comparação.
-        </span>
-        <br />
-        <br />
-        <br />
-        <span class="poltica-privacidade-text089">7. Consentimento</span>
-        <br class="poltica-privacidade-text090" />
-        <br />
-        <span>
-          Ao aceitar receber nossas publicações por email, você está consentindo o
-          aces-so a seus dados pessoais informados para a finalidade de contato.
-        </span>
-        <br />
-        <br />
-        <span class="poltica-privacidade-text095">8. Encarregado de Dados</span>
-        <br class="poltica-privacidade-text096" />
-        <br />
-        <span>
-          Durante o período de armazenamento dos dados pelo HDD haverá um
-          respon-sável pelos dados, nos termos do artigo 41 da LGPD. Esta pessoa
-          irá responder às solicitações dos titulares dos dados, e também caso
-          haja necessidade de apresentá-los para autoridade competente.
-        </span>
-        <br />
-        <br />
-        <span>
-          Dados do contato do encarregado:
-          <span v-html="raw29fp"></span>
-        </span>
-        <br />
-        <span>
-          Melissa Pereira das Neves de Macedo, e-mail: contato@hdd.adv.br
-        </span>
-        <br />
-        <br />
-        <br />
-        <span>
-          Se, mesmo assim, você ficar com alguma dúvida entre em contato através
-          do e-mail: contato@hdd.adv.br.
-        </span>
-        <br />
-        <br />
-        <br />
-        <span>Versão 1.0.</span>
-        <br />
-        <span>Rio Grande, 27 de abril de 2021.</span>
-        <br />
-        <br />
-        <br />
-        <br />
-      </span>
-      <div class="poltica-privacidade-container04"></div>
+    <div class="poltica-privacidade-container04">
+      <span class="poltica-privacidade-text">Política de Privacidade</span>
     </div>
-    <div class="poltica-privacidade-container05">
+    <span class="poltica-privacidade-text001">
+      <span class="poltica-privacidade-text002">
+        Política de Privacidade do site de Hamilton, Damas &amp; De Macedo
+        Advocacia - hdd.adv.br
+      </span>
+      <br class="poltica-privacidade-text003" />
+      <br />
+      <span>
+        Nosso escritório respeita a sua autonomia para compartilhar (ou não) seus
+        da-dos pessoais. Com isto em mente, disponibilizamos esta política para
+        que você tenha amplo conhecimento sobre o que acontece com os seus dados
+        pessoais quando você acessa nosso site. A finalidade geral da coleta de
+        dados pessoais em nosso site é construir um relacionamento com os clientes
+        que assim con-sentirem.
+      </span>
+      <br />
+      <br />
+      <span>___________________________</span>
+      <br />
+      <br />
+      <span>
+        Este documento traz a política de privacidade do site de Hamilton, Damas
+        &amp; De Macedo Advocacia. Sua finalidade, em consonância com a Lei n°
+        13.709, Lei Geral de Proteção de Dados Pessoais (LGPD), é descrever a
+        maneira como se dá a co-leta, armazenamento e tratamento dos dados
+        pessoais especificamente em nosso site, bem como explicitar os direitos do
+        titular que poderão ser exercidos.
+      </span>
+      <br />
+      <br />
+      <span>
+        A sociedade tem sua sede comercial estabelecida à Rua Barão de Cotegipe,
+        n°443, Sala 612, Centro, Rio Grande, RS, CEP 96200-290, e está
+        regularmente inscrita na OAB/RS sob o n° 10.633.
+      </span>
+      <br />
+      <br />
+      <span>
+        Ao fornecer os seus dados pessoais em nosso site, você aceita os termos e
+        con-dições desta Política de Privacidade e Proteção de Dados Pessoais,
+        lembrando que apenas serão tratados os dados pessoais necessários às
+        finalidades que embasam sua coleta, nos termos do artigo 7° da LGPD.
+        Também é importante salientar que alguns dados poderão ser mantidos para
+        cumprimento de obriga-ção legal ou regulatória, exercício regular de
+        direito, interesse legítimo ou com o seu consentimento.
+      </span>
+      <br />
+      <br />
+      <span>
+        O presente documento foi dividido nas seguintes partes, como forma de
+        facili-tar a sua leitura e interpretação: 1) Coleta de informação pessoal;
+        2) Uso de sua informação pessoal; 3) Compartilhamento de informações com
+        terceiros; 4) Se-gurança de seus dados; 5) Direitos dos usuários; 6)
+        Atualizações da política de privacidade do site; 7) Consentimento; e 8)
+        Encarregado de dados.
+      </span>
+      <br />
+      <br />
+      <span>
+        Devido a nossa constante atualização, esta Política de Privacidade e
+        Proteção de Dados pode sofrer alterações, de forma que a versão mais
+        recente estará disponível diretamente em nosso site.
+      </span>
+      <br />
+      <br />
+      <span class="poltica-privacidade-text026">
+        1. Coleta de Informação Pessoal
+      </span>
+      <br class="poltica-privacidade-text027" />
+      <br />
+      <span>
+        Nosso site disponibiliza a seção “Receba nossas publicações por email” nas
+        pá-ginas “Home” e “Contato”. Caso você preencha esta seção e envie seus
+        dados, utilizaremos seu nome completo e email estritamente para a
+        finalidade de in-clusão na lista de destinatários dos emails do HDD, para
+        recebimento dos in-formativos para clientes.
+      </span>
+      <br />
+      <br />
+      <span>
+        Nosso site utiliza a plataforma de hospedagem Wix, assim como a plataforma
+        de análise Google Analytics, as quais nos disponibilizam relatórios
+        estatísticos com dados anonimizados, demonstrando o número de sessões de
+        acesso ao site, número total de visitantes, número de visitantes únicos e
+        demais informa-ções padronizadas de análise estatística. Nosso escritório
+        tem acesso estrita-mente a estes dados estatísticos anônimos.
+      </span>
+      <br />
+      <br />
+      <span>
+        Para que a estatística possa ser visualizada, no entanto, o Wix e o Google
+        têm acesso a algumas informações técnicas do seu dispositivo, tais como,
+        endereço IP e Porta Lógica de Origem, tipo de dispositivo, navegador e
+        sistema operacio-nal, registros de data e horário de cada ação que você
+        realizar, telas acessadas, ID da sessão e Cookies.
+      </span>
+      <br />
+      <br />
+      <span>
+        Ao clicar nos links de contato em plataformas de terceiros (WhatsApp,
+        Insta-gram, Facebook e LinkedIn), você será redirecionado para o sistema
+        correspon-dente, estando sujeito à política de privacidade da plataforma
+        em questão. No entanto, poderemos coletar seus dados de contato na
+        respectiva plataforma para que possamos atendê-lo, caso você decida
+        compartilhar seus dados. Por exemplo: no WhatsApp, você pode informar o
+        número de telefone e mostrar seu perfil ao iniciar uma conversa. No
+        Linkedin, seu perfil pode aparecer como visualizações dos nossos perfis;
+        no Facebook você pode fazer um pedido de amizade; no Instagram você pode
+        seguir nossos perfis.
+      </span>
+      <br />
+      <br />
+      <span class="poltica-privacidade-text041">
+        2. Uso da sua informação pessoal
+      </span>
+      <br class="poltica-privacidade-text042" />
+      <br />
+      <span>
+        Utilizamos os dados coletados para informar sobre novidades,
+        funcionalidades, conteúdos, notícias e eventos relacionados aos nossos
+        serviços. Ainda, os dados também são utilizados para a sua proteção, seja
+        para cumprir obrigações legais e assim assegurar seus direitos, ou até
+        mesmo para prevenir alguma fraude.
+      </span>
+      <br />
+      <br />
+      <span>
+        A qualquer momento você pode optar em não receber mais informações,
+        bas-tando para isso solicitar via nosso endereço de e-mail ou seguindo as
+        instruções de retirada de inscrição que acompanham as mensagens recebidas.
+      </span>
+      <br />
+      <br />
+      <span class="poltica-privacidade-text050">
+        3. Compartilhamento de informações com terceiros
+      </span>
+      <br class="poltica-privacidade-text051" />
+      <br />
+      <span>
+        As únicas hipóteses em que o HDD disponibilizará suas informações pessoais
+        com terceiros são as seguintes: (a) legislação, regulamentação, processo
+        legal ou solicitação governamental aplicável; (b) cumprir investigação de
+        possíveis violações; (c) fraude ou por segurança; ou (d) proteger contra
+        dano aos direitos, a propriedade ou a segurança do HDD, nossos usuários ou
+        o público, conforme solicitado ou permitido por lei.
+      </span>
+      <br />
+      <br />
+      <br />
+      <span class="poltica-privacidade-text057">4. Segurança de seus Dados</span>
+      <br class="poltica-privacidade-text058" />
+      <br />
+      <span>
+        Dispomos de medidas de segurança em âmbitos físico, eletrônico e
+        administra-tivo, que protegem os dados pessoais e suas informações. Essas
+        medidas de proteção nos auxiliam na prevenção de fraudes e acessos não
+        autorizados às informações, bem como na manutenção da integridade dos
+        dados. Além disso, dispomos de uma Política de Segurança Interna para que
+        seus dados permane-çam sempre em segurança.
+      </span>
+      <br />
+      <br />
+      <span>
+        Ademais, nosso site tem certificado de segurança e, especificamente, os
+        dados pessoais coletados no site são armazenados diretamente na plataforma
+        do Wix em conjunto com a plataforma do Google Workspace (G-Suite).
+      </span>
+      <br />
+      <br />
+      <span class="poltica-privacidade-text066">5. Direitos dos usuários</span>
+      <br class="poltica-privacidade-text067" />
+      <br />
+      <span>
+        Os direitos elencados abaixo podem ser exercidos a qualquer momento
+        através do e-mail: contato@hdd.adv.br.
+        <span v-html="rawa0t5"></span>
+      </span>
+      <br />
+      <br />
+      <span>
+        Acesso: o usuário poderá solicitar informações a respeito de quais dados
+        são armazenados e para qual finalidade.
+      </span>
+      <br />
+      <br />
+      <span>
+        Retificação: o usuário poderá solicitar a correção/atualização de algum de
+        seus dados pessoais, pois é sua responsabilidade mantê-los sempre
+        atualizados.
+        <span v-html="rawdk8k"></span>
+      </span>
+      <br />
+      <br />
+      <span>
+        Eliminação: o usuário poderá solicitar a eliminação dos seus dados
+        pessoais nas seguintes situações: (i) quando não forem necessários para a
+        finalidade para a qual são utilizados, (ii) quando não estiver mais
+        consentindo com os termos aqui expostos.
+      </span>
+      <br />
+      <br />
+      <br />
+      <span class="poltica-privacidade-text082">
+        6. Atualizações na Política de Privacidade do Site
+      </span>
+      <br class="poltica-privacidade-text083" />
+      <br />
+      <span>
+        Em caso de modificação nos termos, publicaremos a nova versão da política
+        de privacidade em nosso site. As versões anteriores da Política de
+        Privacidade do Site serão arquivadas para eventual comparação.
+      </span>
+      <br />
+      <br />
+      <br />
+      <span class="poltica-privacidade-text089">7. Consentimento</span>
+      <br class="poltica-privacidade-text090" />
+      <br />
+      <span>
+        Ao aceitar receber nossas publicações por email, você está consentindo o
+        aces-so a seus dados pessoais informados para a finalidade de contato.
+      </span>
+      <br />
+      <br />
+      <span class="poltica-privacidade-text095">8. Encarregado de Dados</span>
+      <br class="poltica-privacidade-text096" />
+      <br />
+      <span>
+        Durante o período de armazenamento dos dados pelo HDD haverá um
+        respon-sável pelos dados, nos termos do artigo 41 da LGPD. Esta pessoa irá
+        responder às solicitações dos titulares dos dados, e também caso haja
+        necessidade de apresentá-los para autoridade competente.
+      </span>
+      <br />
+      <br />
+      <span>
+        Dados do contato do encarregado:
+        <span v-html="raw7hj5"></span>
+      </span>
+      <br />
+      <span>Melissa Pereira das Neves de Macedo, e-mail: contato@hdd.adv.br</span>
+      <br />
+      <br />
+      <br />
+      <span>
+        Se, mesmo assim, você ficar com alguma dúvida entre em contato através do
+        e-mail: contato@hdd.adv.br.
+      </span>
+      <br />
+      <br />
+      <br />
+      <span>Versão 1.0.</span>
+      <br />
+      <span>Rio Grande, 27 de abril de 2021.</span>
+      <br />
+      <br />
+      <br />
+      <br />
+    </span>
+    <div class="poltica-privacidade-container05"></div>
+    <div class="poltica-privacidade-container06">
       <span id="contato" class="poltica-privacidade-text118">Contato</span>
     </div>
-    <div class="poltica-privacidade-container06">
-      <div class="poltica-privacidade-container07">
-        <div class="poltica-privacidade-container08">
-          <router-link to="/" class="poltica-privacidade-navlink2">
+    <div class="poltica-privacidade-container07">
+      <div class="poltica-privacidade-container08">
+        <div class="poltica-privacidade-container09">
+          <router-link to="/" class="poltica-privacidade-navlink3">
             <img
               alt="image"
               src="/playground_assets/0aaf9533daed1a66a8b67b2ecae6c7ab-200h.png"
               class="poltica-privacidade-image1"
             />
           </router-link>
-          <div class="poltica-privacidade-container09">
+          <div class="poltica-privacidade-container10">
             <div class="poltica-privacidade-icon-group1">
               <a
                 href="https://api.whatsapp.com/send/?phone=5553933002415&amp;text&amp;type=phone_number&amp;app_absent=0"
@@ -397,7 +388,7 @@
               </a>
             </div>
           </div>
-          <div class="poltica-privacidade-container10">
+          <div class="poltica-privacidade-container11">
             <a
               href="https://api.whatsapp.com/send/?phone=5553933002415&amp;text&amp;type=phone_number&amp;app_absent=0"
               target="_blank"
@@ -429,19 +420,14 @@
 </template>
 
 <script>
-import NavigationLinks3 from '../components/navigation-links3'
-
 export default {
   name: 'PolticaPrivacidade',
-  components: {
-    NavigationLinks3,
-  },
 
   data() {
     return {
-      rawh0bk: ' ',
-      raw9khw: ' ',
-      raw29fp: ' ',
+      rawa0t5: ' ',
+      rawdk8k: ' ',
+      raw7hj5: ' ',
     }
   },
 
@@ -503,21 +489,51 @@ export default {
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.poltica-privacidade-navlink {
-  display: contents;
-}
 .poltica-privacidade-image {
   height: 75%;
   object-fit: cover;
+}
+.poltica-privacidade-container02 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.poltica-privacidade-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.poltica-privacidade-navlink {
+  color: var(--dl-color-primary-amarelo);
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  padding-right: var(--dl-space-space-sixunits);
   text-decoration: none;
 }
-.poltica-privacidade-nav {
-  display: flex;
-}
 .poltica-privacidade-navlink1 {
-  display: contents;
+  color: var(--dl-color-primary-amarelo);
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  padding-right: var(--dl-space-space-sixunits);
+  text-decoration: none;
 }
-.poltica-privacidade-component {
+.poltica-privacidade-navlink2 {
+  color: var(--dl-color-primary-amarelo);
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
   text-decoration: none;
 }
 .poltica-privacidade-icon {
@@ -540,16 +556,7 @@ export default {
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
-.poltica-privacidade-container02 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.poltica-privacidade-container03 {
+.poltica-privacidade-container04 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -571,7 +578,7 @@ export default {
   font-style: normal;
   font-weight: 800;
 }
-.poltica-privacidade-container04 {
+.poltica-privacidade-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: 50px;
@@ -579,7 +586,7 @@ export default {
   align-items: flex-start;
   background-color: var(--dl-color-primary-azul);
 }
-.poltica-privacidade-container05 {
+.poltica-privacidade-container06 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -593,7 +600,7 @@ export default {
   font-weight: 800;
   text-transform: capitalize;
 }
-.poltica-privacidade-container06 {
+.poltica-privacidade-container07 {
   width: 100%;
   height: 400px;
   display: flex;
@@ -601,14 +608,6 @@ export default {
   align-items: flex-start;
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
-}
-.poltica-privacidade-container07 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 .poltica-privacidade-container08 {
   flex: 0 0 auto;
@@ -618,7 +617,15 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-.poltica-privacidade-navlink2 {
+.poltica-privacidade-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.poltica-privacidade-navlink3 {
   display: contents;
 }
 .poltica-privacidade-image1 {
@@ -628,7 +635,7 @@ export default {
   object-fit: cover;
   text-decoration: none;
 }
-.poltica-privacidade-container09 {
+.poltica-privacidade-container10 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -659,7 +666,7 @@ export default {
   height: auto;
   text-decoration: none;
 }
-.poltica-privacidade-container10 {
+.poltica-privacidade-container11 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -696,9 +703,6 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .poltica-privacidade-nav {
-    display: none;
-  }
   .poltica-privacidade-image1 {
     width: 50%;
   }
@@ -707,6 +711,9 @@ export default {
   .poltica-privacidade-header {
     padding: var(--dl-space-space-unit);
     padding-right: 16px;
+  }
+  .poltica-privacidade-container02 {
+    display: none;
   }
   .poltica-privacidade-icon-group {
     display: none;

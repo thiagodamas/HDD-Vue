@@ -7,16 +7,12 @@
           src="/playground_assets/f464d58c0ac4465a6d2141623af20120-1400w.png"
           class="home-image"
         />
-        <div class="home-nav">
-          <a href="#contato" class="home-link">
-            <navigation-links3
-              text="Quem somos"
-              text1="Áreas de atuação"
-              text2="Contato"
-              rootClassName="rootClassName15"
-              class="home-component"
-            ></navigation-links3>
-          </a>
+        <div class="home-container02">
+          <div class="home-container03">
+            <a href="#quemsomos" class="home-link">Quem somos</a>
+            <a href="#areas" class="home-link01">Áreas de atuação</a>
+            <a href="#contato" class="home-link02">Contato</a>
+          </div>
         </div>
         <div class="home-icon-group">
           <a
@@ -55,7 +51,7 @@
         </div>
       </header>
     </div>
-    <div class="home-container02">
+    <div class="home-container04">
       <span class="home-text">
         <span class="home-text01">Atendimento jurídico</span>
         <br class="home-text02" />
@@ -64,13 +60,13 @@
         <br class="home-text05" />
       </span>
     </div>
-    <div class="home-container03"></div>
-    <div class="home-container04">
+    <div class="home-container05"></div>
+    <div class="home-container06">
       <span id="quemsomos" class="home-text06">Quem somos</span>
     </div>
-    <div class="home-container05">
-      <div class="home-container06">
-        <div class="home-container07">
+    <div class="home-container07">
+      <div class="home-container08">
+        <div class="home-container09">
           <img
             alt="image"
             src="/playground_assets/d7f51d518f1221d4ef64d31fba6bb644-700w.png"
@@ -78,7 +74,7 @@
             class="home-image1"
           />
         </div>
-        <div class="home-container08">
+        <div class="home-container10">
           <span class="home-text07">
             <span>THIAGO PINTO DAMAS</span>
             <br />
@@ -86,8 +82,8 @@
           </span>
         </div>
       </div>
-      <div class="home-container09">
-        <div class="home-container10">
+      <div class="home-container11">
+        <div class="home-container12">
           <img
             alt="image"
             src="/playground_assets/f7c348cec934ef841acda2352b8f958d-700w.png"
@@ -95,31 +91,31 @@
             class="home-image2"
           />
         </div>
-        <div class="home-container11">
+        <div class="home-container13">
           <span class="home-text11">
             <span>MELISSA PEREIRA DAS NEVES DE MACEDO</span>
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawwuzu"></span>
+              <span v-html="rawt79z"></span>
             </span>
           </span>
         </div>
       </div>
     </div>
-    <div class="home-container12"></div>
-    <div class="home-container13">
+    <div class="home-container14"></div>
+    <div class="home-container15">
       <span id="areas" class="home-text15">Áreas de atuação</span>
     </div>
-    <div class="home-container14">
-      <div class="home-container15">
-        <div class="home-container16">
-          <div class="home-container17">
+    <div class="home-container16">
+      <div class="home-container17">
+        <div class="home-container18">
+          <div class="home-container19">
             <span class="home-text16">Direito Civil</span>
           </div>
         </div>
-        <div class="home-container18">
-          <div class="home-container19">
+        <div class="home-container20">
+          <div class="home-container21">
             <span class="home-text17">
               <span>Sucessões e</span>
               <br />
@@ -128,9 +124,9 @@
           </div>
         </div>
       </div>
-      <div class="home-container20">
-        <div class="home-container21">
-          <div class="home-container22">
+      <div class="home-container22">
+        <div class="home-container23">
+          <div class="home-container24">
             <span class="home-text21">
               <span>Assessoria</span>
               <br />
@@ -141,8 +137,8 @@
             </span>
           </div>
         </div>
-        <div class="home-container23">
-          <div class="home-container24">
+        <div class="home-container25">
+          <div class="home-container26">
             <span class="home-text28">
               <span>Assessoria</span>
               <br />
@@ -152,18 +148,18 @@
         </div>
       </div>
     </div>
-    <div class="home-container25">
+    <div class="home-container27">
       <span id="contato" class="home-text32">Contato</span>
     </div>
-    <div class="home-container26">
-      <div class="home-container27">
-        <div class="home-container28">
+    <div class="home-container28">
+      <div class="home-container29">
+        <div class="home-container30">
           <img
             alt="image"
             src="/playground_assets/0aaf9533daed1a66a8b67b2ecae6c7ab-200h.png"
             class="home-image3"
           />
-          <div class="home-container29">
+          <div class="home-container31">
             <div class="home-icon-group1">
               <a
                 href="https://api.whatsapp.com/send/?phone=5553933002415&amp;text&amp;type=phone_number&amp;app_absent=0"
@@ -200,12 +196,12 @@
               </a>
             </div>
           </div>
-          <div class="home-container30">
+          <div class="home-container32">
             <a
               href="https://api.whatsapp.com/send/?phone=5553933002415&amp;text&amp;type=phone_number&amp;app_absent=0"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link7"
+              class="home-link09"
             >
               <span>(53) 93300-2415</span>
               <br />
@@ -227,17 +223,12 @@
 </template>
 
 <script>
-import NavigationLinks3 from '../components/navigation-links3'
-
 export default {
   name: 'Home',
-  components: {
-    NavigationLinks3,
-  },
 
   data() {
     return {
-      rawwuzu: ' ',
+      rawt79z: ' ',
     }
   },
 
@@ -304,13 +295,47 @@ export default {
   height: 75%;
   object-fit: cover;
 }
-.home-nav {
+.home-container02 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 50%;
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
 }
 .home-link {
-  display: contents;
+  color: var(--dl-color-primary-amarelo);
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  padding-right: var(--dl-space-space-sixunits);
+  text-decoration: none;
 }
-.home-component {
+.home-link01 {
+  color: var(--dl-color-primary-amarelo);
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  padding-right: var(--dl-space-space-sixunits);
+  text-decoration: none;
+}
+.home-link02 {
+  color: var(--dl-color-primary-amarelo);
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
   text-decoration: none;
 }
 .home-icon {
@@ -333,7 +358,7 @@ export default {
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
-.home-container02 {
+.home-container04 {
   width: 100%;
   height: 300px;
   display: flex;
@@ -379,7 +404,7 @@ export default {
   font-size: 24px;
   text-transform: uppercase;
 }
-.home-container03 {
+.home-container05 {
   flex: 0 0 auto;
   width: 100%;
   height: 50px;
@@ -387,7 +412,7 @@ export default {
   align-items: flex-start;
   background-color: var(--dl-color-primary-azul);
 }
-.home-container04 {
+.home-container06 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -402,14 +427,14 @@ export default {
   font-family: Montserrat;
   font-weight: 800;
 }
-.home-container05 {
+.home-container07 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.home-container06 {
+.home-container08 {
   flex: 0 0 auto;
   width: 50%;
   height: 400px;
@@ -418,7 +443,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container07 {
+.home-container09 {
   flex: 0 0 auto;
   width: 100%;
   height: 80%;
@@ -431,7 +456,7 @@ export default {
   height: 100%;
   object-fit: cover;
 }
-.home-container08 {
+.home-container10 {
   flex: 0 0 auto;
   width: 100%;
   height: 20%;
@@ -445,7 +470,7 @@ export default {
   text-align: center;
   font-family: Montserrat;
 }
-.home-container09 {
+.home-container11 {
   flex: 0 0 auto;
   width: 50%;
   height: 400px;
@@ -454,7 +479,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container10 {
+.home-container12 {
   flex: 0 0 auto;
   width: 100%;
   height: 80%;
@@ -467,7 +492,7 @@ export default {
   height: 100%;
   object-fit: cover;
 }
-.home-container11 {
+.home-container13 {
   flex: 0 0 auto;
   width: 100%;
   height: 20%;
@@ -481,7 +506,7 @@ export default {
   text-align: center;
   font-family: Montserrat;
 }
-.home-container12 {
+.home-container14 {
   flex: 0 0 auto;
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -490,7 +515,7 @@ export default {
   align-items: flex-start;
   background-color: var(--dl-color-primary-azul);
 }
-.home-container13 {
+.home-container15 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -504,7 +529,7 @@ export default {
   font-family: Montserrat;
   font-weight: 800;
 }
-.home-container14 {
+.home-container16 {
   width: 100%;
   height: 800px;
   display: flex;
@@ -512,37 +537,13 @@ export default {
   background-size: cover;
   background-image: url("/playground_assets/425c6aa23582842666896becc8b22c89-1500w.png");
 }
-.home-container15 {
+.home-container17 {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-container16 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-container17 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: var(--dl-color-primary-amarelo);
-}
-.home-text16 {
-  color: var(--dl-color-primary-azul);
-  font-size: 32px;
-  align-self: center;
-  text-align: center;
-  font-family: Montserrat;
 }
 .home-container18 {
   flex: 0 0 auto;
@@ -561,7 +562,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
-.home-text17 {
+.home-text16 {
   color: var(--dl-color-primary-azul);
   font-size: 32px;
   align-self: center;
@@ -570,36 +571,35 @@ export default {
 }
 .home-container20 {
   flex: 0 0 auto;
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-container21 {
-  flex: 0 0 auto;
   width: 100%;
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.home-container22 {
+.home-container21 {
   flex: 0 0 auto;
   width: 50%;
   height: 50%;
   display: flex;
-  align-self: center;
   align-items: flex-start;
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
-.home-text21 {
+.home-text17 {
   color: var(--dl-color-primary-azul);
   font-size: 32px;
   align-self: center;
   text-align: center;
   font-family: Montserrat;
+}
+.home-container22 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .home-container23 {
   flex: 0 0 auto;
@@ -619,7 +619,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
-.home-text28 {
+.home-text21 {
   color: var(--dl-color-primary-azul);
   font-size: 32px;
   align-self: center;
@@ -627,6 +627,31 @@ export default {
   font-family: Montserrat;
 }
 .home-container25 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container26 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--dl-color-primary-amarelo);
+}
+.home-text28 {
+  color: var(--dl-color-primary-azul);
+  font-size: 32px;
+  align-self: center;
+  text-align: center;
+  font-family: Montserrat;
+}
+.home-container27 {
   width: 100%;
   height: 100px;
   display: flex;
@@ -640,7 +665,7 @@ export default {
   font-weight: 800;
   text-transform: capitalize;
 }
-.home-container26 {
+.home-container28 {
   width: 100%;
   height: 400px;
   display: flex;
@@ -649,7 +674,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
-.home-container27 {
+.home-container29 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -657,7 +682,7 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-.home-container28 {
+.home-container30 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -671,7 +696,7 @@ export default {
   align-self: center;
   object-fit: cover;
 }
-.home-container29 {
+.home-container31 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -702,7 +727,7 @@ export default {
   height: auto;
   text-decoration: none;
 }
-.home-container30 {
+.home-container32 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -710,7 +735,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.home-link7 {
+.home-link09 {
   color: var(--dl-color-primary-azul);
   font-size: 24px;
   align-self: center;
@@ -738,9 +763,6 @@ export default {
   .home-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-  }
-  .home-nav {
-    display: none;
   }
   .home-image1 {
     width: 80%;
@@ -773,10 +795,13 @@ export default {
     padding: var(--dl-space-space-unit);
     padding-right: 16px;
   }
+  .home-container02 {
+    display: none;
+  }
   .home-icon-group {
     display: none;
   }
-  .home-container04 {
+  .home-container06 {
     align-self: center;
   }
   .home-text06 {
@@ -792,7 +817,7 @@ export default {
     height: auto;
     align-self: center;
   }
-  .home-container13 {
+  .home-container15 {
     position: relative;
     align-self: center;
     align-items: center;
@@ -802,30 +827,30 @@ export default {
     align-self: center;
     text-align: center;
   }
-  .home-container14 {
+  .home-container16 {
     height: 500px;
   }
-  .home-container17 {
+  .home-container19 {
     height: 33%;
   }
   .home-text16 {
     font-size: 18px;
     text-align: center;
   }
-  .home-container19 {
+  .home-container21 {
     height: 33%;
   }
   .home-text17 {
     font-size: 18px;
     text-align: center;
   }
-  .home-container22 {
+  .home-container24 {
     height: 33%;
   }
   .home-text21 {
     font-size: 18px;
   }
-  .home-container24 {
+  .home-container26 {
     height: 33%;
   }
   .home-text28 {
