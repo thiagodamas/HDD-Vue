@@ -97,7 +97,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawt79z"></span>
+              <span v-html="rawn8a0"></span>
             </span>
           </span>
         </div>
@@ -228,7 +228,7 @@ export default {
 
   data() {
     return {
-      rawt79z: ' ',
+      rawn8a0: ' ',
     }
   },
 
@@ -559,8 +559,13 @@ export default {
   height: 50%;
   display: flex;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius2);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
 }
 .home-text16 {
   color: var(--dl-color-primary-azul);
@@ -583,6 +588,7 @@ export default {
   height: 50%;
   display: flex;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius2);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
@@ -616,6 +622,7 @@ export default {
   display: flex;
   align-self: center;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius2);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
@@ -641,6 +648,7 @@ export default {
   display: flex;
   align-self: center;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius2);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
