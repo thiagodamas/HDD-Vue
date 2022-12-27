@@ -101,7 +101,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawxsr8"></span>
+              <span v-html="rawwuzu"></span>
             </span>
           </span>
         </div>
@@ -213,14 +213,9 @@
             </a>
           </div>
         </div>
-        <a
-          href="https://hdd.adv.br/pdf/PoliticaPrivacidade.pdf"
-          target="_blank"
-          rel="noreferrer noopener"
-          class="home-link8"
-        >
+        <router-link to="/poltica-privacidade" class="home-navlink">
           Termos de uso do site
-        </a>
+        </router-link>
       </div>
       <span class="home-text36">
         <span>Porto de Gale Business Center, sala 612</span>
@@ -242,7 +237,7 @@ export default {
 
   data() {
     return {
-      rawxsr8: ' ',
+      rawwuzu: ' ',
     }
   },
 
@@ -723,7 +718,7 @@ export default {
   font-family: Montserrat;
   text-decoration: none;
 }
-.home-link8 {
+.home-navlink {
   color: var(--dl-color-primary-azul);
   font-family: Montserrat;
   text-decoration: underline;
