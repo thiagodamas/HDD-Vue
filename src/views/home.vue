@@ -144,7 +144,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawjs12"></span>
+              <span v-html="rawale3"></span>
             </span>
           </span>
         </div>
@@ -285,7 +285,7 @@ export default {
 
   data() {
     return {
-      rawjs12: ' ',
+      rawale3: ' ',
     }
   },
 
@@ -484,7 +484,6 @@ export default {
 .home-container04 {
   flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 50px;
   display: flex;
   align-items: flex-start;
