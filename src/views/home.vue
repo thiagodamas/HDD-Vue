@@ -117,6 +117,7 @@
           <img
             alt="image"
             src="/playground_assets/d7f51d518f1221d4ef64d31fba6bb644-800w.png"
+            loading="lazy"
             class="home-image2"
           />
         </div>
@@ -133,6 +134,7 @@
           <img
             alt="image"
             src="/playground_assets/f7c348cec934ef841acda2352b8f958d-800w.png"
+            loading="lazy"
             class="home-image3"
           />
         </div>
@@ -142,7 +144,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawtbkw"></span>
+              <span v-html="rawjs12"></span>
             </span>
           </span>
         </div>
@@ -283,7 +285,7 @@ export default {
 
   data() {
     return {
-      rawtbkw: ' ',
+      rawjs12: ' ',
     }
   },
 
