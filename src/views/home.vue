@@ -101,7 +101,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawh8f7"></span>
+              <span v-html="rawxsr8"></span>
             </span>
           </span>
         </div>
@@ -214,7 +214,7 @@
           </div>
         </div>
         <a
-          href="https://hdd.adv.br/pdf/Política Privacidade.pdf"
+          href="https://hdd.adv.br/pdf/PoliticaPrivacidade.pdf"
           target="_blank"
           rel="noreferrer noopener"
           class="home-link8"
@@ -242,7 +242,7 @@ export default {
 
   data() {
     return {
-      rawh8f7: ' ',
+      rawxsr8: ' ',
     }
   },
 
