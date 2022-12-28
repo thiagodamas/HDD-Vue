@@ -97,7 +97,7 @@
             <br />
             <span>
               OAB-RS 116.145
-              <span v-html="rawn8a0"></span>
+              <span v-html="rawz53a"></span>
             </span>
           </span>
         </div>
@@ -142,14 +142,16 @@
             <span class="home-text28">
               <span>Assessoria</span>
               <br />
-              <span>Jurídica Extrajudicial</span>
+              <span>Jurídica</span>
+              <br />
+              <span>Extrajudicial</span>
             </span>
           </div>
         </div>
       </div>
     </div>
     <div class="home-container27">
-      <span id="contato" class="home-text32">Contato</span>
+      <span id="contato" class="home-text34">Contato</span>
     </div>
     <div class="home-container28">
       <div class="home-container29">
@@ -213,7 +215,7 @@
           Termos de uso do site
         </router-link>
       </div>
-      <span class="home-text36">
+      <span class="home-text38">
         <span>Porto de Gale Business Center, sala 612</span>
         <br />
         <span>Rua Barão de Cotegipe, nº 443, Centro, Rio Grande/RS</span>
@@ -228,7 +230,7 @@ export default {
 
   data() {
     return {
-      rawn8a0: ' ',
+      rawz53a: ' ',
     }
   },
 
@@ -371,7 +373,7 @@ export default {
 .home-text {
   top: 0px;
   left: 0px;
-  color: rgb(21, 41, 78);
+  color: var(--dl-color-primary-azul);
   position: absolute;
   align-self: flex-start;
   font-style: normal;
@@ -380,6 +382,7 @@ export default {
   line-height: 1.5;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius4);
   padding-right: var(--dl-space-space-twounits);
   text-transform: uppercase;
   background-color: var(--dl-color-primary-amarelo);
@@ -455,6 +458,7 @@ export default {
   width: auto;
   height: 100%;
   object-fit: cover;
+  border-radius: 10%;
 }
 .home-container10 {
   flex: 0 0 auto;
@@ -491,6 +495,7 @@ export default {
   width: auto;
   height: 100%;
   object-fit: cover;
+  border-radius: 10%;
 }
 .home-container13 {
   flex: 0 0 auto;
@@ -559,13 +564,9 @@ export default {
   height: 50%;
   display: flex;
   align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius2);
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius: 25%;
 }
 .home-text16 {
   color: var(--dl-color-primary-azul);
@@ -588,7 +589,7 @@ export default {
   height: 50%;
   display: flex;
   align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius2);
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
@@ -622,7 +623,7 @@ export default {
   display: flex;
   align-self: center;
   align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius2);
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
@@ -648,7 +649,7 @@ export default {
   display: flex;
   align-self: center;
   align-items: flex-start;
-  border-radius: var(--dl-radius-radius-radius2);
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-primary-amarelo);
 }
@@ -666,7 +667,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.home-text32 {
+.home-text34 {
   color: var(--dl-color-primary-azul);
   font-size: 42px;
   font-family: Montserrat;
@@ -756,7 +757,7 @@ export default {
   font-family: Montserrat;
   text-decoration: underline;
 }
-.home-text36 {
+.home-text38 {
   left: 0px;
   color: var(--dl-color-primary-azul);
   right: 0px;

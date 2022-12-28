@@ -244,7 +244,7 @@
       <span>
         Os direitos elencados abaixo podem ser exercidos a qualquer momento
         através do e-mail: contato@hdd.adv.br.
-        <span v-html="rawmjol"></span>
+        <span v-html="rawmsz0"></span>
       </span>
       <br />
       <br />
@@ -258,7 +258,7 @@
         Retificação: o usuário poderá solicitar a correção/atualização de algum de
         seus dados pessoais, pois é sua responsabilidade mantê-los sempre
         atualizados.
-        <span v-html="raww26o"></span>
+        <span v-html="rawq1k7"></span>
       </span>
       <br />
       <br />
@@ -306,7 +306,7 @@
       <br />
       <span>
         Dados do contato do encarregado:
-        <span v-html="raw0vzr"></span>
+        <span v-html="rawj39v"></span>
       </span>
       <br />
       <span>Melissa Pereira das Neves de Macedo, e-mail: contato@hdd.adv.br</span>
@@ -425,9 +425,9 @@ export default {
 
   data() {
     return {
-      rawmjol: ' ',
-      raww26o: ' ',
-      raw0vzr: ' ',
+      rawmsz0: ' ',
+      rawq1k7: ' ',
+      rawj39v: ' ',
     }
   },
 

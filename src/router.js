@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Meta from 'vue-meta'
 
-import Home from './views/home'
 import PolticaPrivacidade from './views/poltica-privacidade'
+import Home from './views/home'
 import './style.css'
 
 Vue.use(Router)
@@ -12,14 +12,14 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      name: 'Home',
-      path: '/',
-      component: Home,
-    },
-    {
       name: 'Poltica-Privacidade',
       path: '/poltica-privacidade',
       component: PolticaPrivacidade,
+    },
+    {
+      name: 'Home',
+      path: '/',
+      component: Home,
     },
   ],
 })
